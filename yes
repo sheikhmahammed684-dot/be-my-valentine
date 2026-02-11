@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-card">
+        <img id="valentine-img" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1eXp1eXp1eXp1/3ORIOfiwMdnv2Z2Vas/giphy.gif" alt="Cute GIF">
+        <h1 id="question">Will you be my Valentine?</h1>
+        <div class="buttons">
+            <button id="yesBtn" onclick="celebrate()">Yes!</button>
+            <button id="noBtn">No</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
