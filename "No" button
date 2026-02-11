@@ -1,0 +1,55 @@
+body {
+    background-color: #ffc0cb; /* Pink romantic background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+#main-gif {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #d63384;
+    font-size: 2.5rem;
+}
+
+.btn-wrapper {
+    position: relative;
+    height: 60px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#yes-btn {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+/* Position absolute is key to making it "run" away */
+#no-btn {
+    background-color: #adb5bd;
+    color: white;
+    position: absolute; 
+    left: 55%; 
+}
